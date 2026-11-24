@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+dataset/*
+!dataset/.gitkeep
+
+# Generated output
+output/*
+!output/.gitkeep
+
+# Model files
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
